@@ -12,6 +12,8 @@
     "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx,json,css,scss,md}'",
     "type-check": "tsc --noEmit",
     "validate:kit": "node .github/tools/validate-kit.mjs",
+    "validate:translations": "node .github/tools/validate-translations.mjs",
+    "pretest": "npm run validate:translations",
     "prepare": "husky install",
     "test": "jest",
     "test:watch": "jest --watch",

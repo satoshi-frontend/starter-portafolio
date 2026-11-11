@@ -1,6 +1,5 @@
 import en from "./en.json";
 import es from "./es.json";
-import fr from "./fr.json";
 
 import type { TranslationCatalog } from "@satoshi-rc-ui";
 
@@ -12,5 +11,4 @@ import type { TranslationCatalog } from "@satoshi-rc-ui";
 export const translations: TranslationCatalog = {
   es,
   en,
-  fr,
 };

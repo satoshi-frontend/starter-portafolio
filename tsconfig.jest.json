@@ -3,6 +3,7 @@
   "compilerOptions": {
     "verbatimModuleSyntax": false,
     "esModuleInterop": true,
+    "resolveJsonModule": true,
     "module": "CommonJS",
     "moduleResolution": "Node"
   },
